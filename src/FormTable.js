@@ -43,7 +43,7 @@ const FormTable = () => {
           className={`dropdown-checkbox ${dropdownOpen ? 'open' : ''}`}
           onClick={toggleDropdown}
         >
-          
+          <input type="checkbox" id="toggle" className="toggle-checkbox" />
           <label htmlFor="toggle" className="toggle-label">
             <span className="toggle-text">Select Skills</span>
             <span className="toggle-arrow">&#9662;</span>
